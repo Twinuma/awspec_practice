@@ -63,7 +63,7 @@ end
 ```
 
 ## awspec generate
-```awspec generate help
+```
 awspec generate ec2 [vpc_id]                        # Generate ec2 spec from VPC ID (or VPC "Name" tag)
 awspec generate elb [vpc_id]                        # Generate elb spec from VPC ID (or VPC "Name" tag)
 awspec generate help [COMMAND]                      # Describe subcommands or one specific subcommand
