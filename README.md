@@ -62,6 +62,18 @@ describe security_group('sg-xxxxxxxxxxx') do
 end
 ```
 
+## awspec generate
+```awspec generate help
+awspec generate ec2 [vpc_id]                        # Generate ec2 spec from VPC ID (or VPC "Name" tag)
+awspec generate elb [vpc_id]                        # Generate elb spec from VPC ID (or VPC "Name" tag)
+awspec generate help [COMMAND]                      # Describe subcommands or one specific subcommand
+awspec generate iam_policy                          # Generate attached iam_policy spec
+awspec generate rds [vpc_id]                        # Generate rds spec from VPC ID (or VPC "Name" tag)
+awspec generate route53_hosted_zone [example.com.]  # Generate route53_hosted_zone spec from Domain name
+awspec generate security_group [vpc_id]             # Generate security_group spec from VPC ID (or VPC "Name" tag)
+awspec generate vpc [vpc_id]                        # Generate vpc spec from VPC ID (or VPC "Name" tag)
+```
+
 ## References
 - [https://github.com/k1LoW/awspec](https://github.com/k1LoW/awspec)
 - [http://qiita.com/k1LoW/items/0ad3d70251c6adfad0e1](http://qiita.com/k1LoW/items/0ad3d70251c6adfad0e1)
