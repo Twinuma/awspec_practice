@@ -23,9 +23,22 @@ ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin14]
 ├── README.md
 ├── Rakefile
 └── spec
+    ├── ec2
+    │   └── ec2_spec.rb
+    ├── elb
+    │   └── elb_spec.rb
+    ├── iam
+    │   └── iam_policy_spec.rb
+    ├── rds
+    │   └── rds_spec.rb
+    ├── route53
+    │   └── route53_hosted_zone_spec.rb
     ├── secrets.yml
-    ├── security_group_current_spec.rb
-    └── spec_helper.rb
+    ├── security_group
+    │   └── security_group_current_spec.rb
+    ├── spec_helper.rb
+    └── vpc
+        └── vpc_spec.rb
 ```
 
 ## execute command
